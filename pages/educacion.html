@@ -4,8 +4,92 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Educación</title>
+      <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            }
+      </style>
   </head>
   <body>
-    
+    <header>
+      <svg width="220" height="90" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+       <g>
+        <title>Layer 1</title>
+        <rect id="svg_3" height="82" width="200.000001" y="1" x="1" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffbf00" stroke="#000000"/>
+        <text font-weight="bold" stroke="#000000" transform="matrix(1.9934184708264586,0,0,2.625825998459229,-582.9847695878947,-334.24452119200913) " xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="24" id="svg_4" y="150.607183" x="342.476603" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff">JELG</text>
+       </g>
+      </svg>
+      <h1>Currículum Vitae</h1>
+      <h2>Eduardo López</h2>
+      <h3>16/12/1991, CDMX, México</h3>
+      <nav>
+        <a href="../index.html">Inicio</a> |
+        <a href="educacion.html">Educación</a> |
+        <a href="experiencia.html">Experiencia</a> |
+      </nav>
+    </header>
+    <section>
+      <article>
+        <h2>Educación</h2>
+        <table style="width:100%">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Next University</td>
+            <td>Online</td>
+            <td>Actualmente estudiando</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>Universidad Nacional Autónoma de México</td>
+            <td>Ciudad de México</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>Colegio Indoamericano</td>
+            <td>Estado de México</td>
+            <td>Sí</td>
+          </tr>
+        </table>
+        <br/>
+      </article>
+      <article>
+        <form>
+          <h3>Agregar Estudios</h3>
+          <label for="anos"><b>Año</b></label>
+          <select name="anos">
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+          </select>
+          <br><br>
+          <label for="institute"><b>Institución</b></label>
+          <input type="text" name="institute" required><br/><br/>
+          <label for="lugar"><b>Lugar</b></label>
+          <textarea name="lugar"></textarea><br/><br/>
+          <label for="culmino">¿Culminó?</b></label>
+          <label for="si">Sí</label>
+          <input type="radio" name="culmino" id="si"value="Sí">
+          <label for="si">No</label>
+          <input type="radio" name="culmino" id="no" value="No"><br/><br/>
+          <input type="submit">
+        </form><br/><br/>
+      </article>
+    </section>
+    <footer>
+      <h3>Información de Contacto</h3>
+      <p>Email:jeduardo.comunicacion@gmail.com</p>
+      <p>Teléfono:8329602955</p>
+      <p>Av. Paseos del Alba L19, Col. Bosques del Alba, Cuautitlán Izcalli, Estado de México, México</p>
+    </footer>
   </body>
 </html>
